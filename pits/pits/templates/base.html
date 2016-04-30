@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+    <script type="text/javascript" src='{% static 'bower_components/jquery/dist/jquery.min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'bower_components/tether/dist/js/tether.min.js' %}'></script>
+    <script type="text/javascript" src='{% static 'bower_components/bootstrap/dist/js/bootstrap.js' %}'></script>
+</head>
+<body>
+    {% block body %}
+    {% endblock body %}
+</body>
+</html>
